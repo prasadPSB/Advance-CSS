@@ -1,0 +1,172 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Whatsapp</title>
+</head>
+<style>
+    body {
+        background-color: #fcf5eb;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 30px 15px 30px;
+
+    }
+
+    .WAlogo {
+        color: #58d469;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .downloadbtn {
+        font-size: 18px;
+        background-color: #58d469;
+        padding: 18px;
+        border-radius: 50px;
+        padding-left: 35px;
+        padding-right: 35px;
+        border: 1px solid black;
+    }
+
+    .downloadbtn:hover {
+        background-color: #0a0a0a;
+        color: #ffffff;
+        transition: 1s ease-in-out;
+    }
+
+    .downloadicon {
+        margin: 10px;
+    }
+
+    .maindiv {
+        background-color: #ffffff;
+        margin: auto;
+        padding: 40px;
+        width: 60%;
+        border: 1px solid black;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+
+    .loginhead {
+        font-size: 30px;
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+
+    .msg {
+        font-size: 22px;
+        padding-top: 15px;
+        padding-left: 20px;
+    }
+
+    .logo {
+        font-size: 40px;
+    }
+
+    .list {
+        font-size: 20px;
+    }
+
+    .listspan {
+        padding: 20px;
+    }
+
+    .icons {
+        padding:5px;
+        border:1px solid rgb(188, 187, 187);
+        border-radius:5px;
+        background-color:#f7f8fa;
+
+    }
+
+    .aspan {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .aspan a:hover {
+        color: #58d469;
+    
+    }
+    .alink {
+        color: black;
+        text-decoration-color: #58d469;
+        padding: 5px;
+    }
+
+    img {
+        width: 80%;
+        padding-top: 50px;
+    }
+
+    .checkbox {
+        font-size: 16px;
+        padding: 15px;
+        color: rgb(70, 69, 69);
+    }
+
+    .infoicon {
+        padding: 5px;
+    }
+
+    .privacymsg {
+        text-align: center;
+        padding: 30px;
+        font-size: 18px;
+        color: rgb(82, 81, 81);
+    }
+    .aphone{
+        padding-top: 15px;
+    }
+
+</style>
+
+<body>
+    <div class="header">
+        <div class="WAlogo"><span class="logo"><i class="fa fa-whatsapp" aria-hidden="true"></i></span> WhatsApp</div>
+        <div><button class="downloadbtn">Download <span class="downloadicon"><i class="fa fa-download"
+                        aria-hidden="true"></i></span></button></div>
+    </div>
+    <div class="maindiv">
+        <div>
+            <div class="loginhead">Log into Whatsapp Web</div>
+            <div class="msg">Message Privately with friends and family using Whatsapp on your browser.</div>
+            <ol class="list">
+                <span class="listspan">
+                    <li>Open WhatsApp on your phone</li>
+                </span>
+                <span class="listspan">
+                    <li>Tap Menu <span class="icons"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></span> on
+                        Android, Setting <span class="icons"><i class="fa fa-cog" aria-hidden="true"></i></span> On
+                        iPhone</li>
+                </span>
+                <span class="listspan">
+                    <li>Tap Linked devices and then Link a device</li>
+                </span>
+                <span class="listspan">
+                    <li>Point your phone at this screen to scan QR code</li>
+                </span>
+            </ol>
+            <div>
+                <div class="aspan"><a href="#" class="alink">Need help getting started ? </a><i class="fa fa-arrow-right aref" aria-hidden="true"></i></div>
+                <div class="aspan"><a href="#" class="alink">Log in with phone number </a><i class="fa fa-angle-right aref aphone" aria-hidden="true"></i></div>
+            </div>
+        </div>
+        <div>
+            <img src="../asset/image.png">
+            <div class="checkbox"><input type="checkbox">Stay logged in on this browser <span class="infoicon"><i
+                        class="fa fa-info-circle" aria-hidden="true" title="if selected,you'stay logged into Whatsapp web after closing the browser tab"></i></span></div>
+        </div>
+    </div>
+    <div class="privacymsg"><i class="fa fa-lock" aria-hidden="true"></i> Your personal message are end-to-end encrypted
+    </div>
+</body>
+
+</html>
